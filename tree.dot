@@ -1,6 +1,6 @@
 digraph Tree {
 node [shape=box, style="filled", color="black"] ;
-0 [label="Water <= 0.5\nentropy = 0.971\nsamples = 5\nvalue = [2, 3]\nclass = yes", fillcolor="#399de555"] ;
+0 [label="Sky <= 0.5\nentropy = 0.971\nsamples = 5\nvalue = [2, 3]\nclass = yes", fillcolor="#399de555"] ;
 1 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]\nclass = no", fillcolor="#e58139ff"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="Wind <= 0.5\nentropy = 0.8113\nsamples = 4\nvalue = [1, 3]\nclass = yes", fillcolor="#399de5aa"] ;
